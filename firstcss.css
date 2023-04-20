@@ -1,0 +1,35 @@
+h1{
+    color: rgb(49, 20, 212);
+    font-size: 60px;
+    
+}
+
+h2{
+    color: rgb(15, 74, 35);
+}
+
+h3{
+    background-color:rgba(0,0,200,0.4);
+    height: 30px;
+    width: 400px;
+    
+}
+.bg1{
+    background-image: url(../Image/1.webp);
+    height: 300px;
+    width: 700px;
+}
+
+.bg2{
+    background-image: url(../Image/2.webp);
+    height: 400px;
+    width: 900px;
+    background-repeat: no-repeat;
+}
+.bg3{
+    background-image: url(../Image/images\ \(8\).jpg);
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+}
+

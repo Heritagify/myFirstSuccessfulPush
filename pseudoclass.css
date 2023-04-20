@@ -1,0 +1,128 @@
+.teddy{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: brown;
+    margin-top: 90px;
+    margin-left: 10%;
+    position: relative;
+    
+}
+.teddy::before{
+    content: url('');
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: brown;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    overflow: hidden;
+}
+.teddy::after{
+    content: url('');
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: brown;
+    position: absolute;
+    top: 70px;
+    left: 290px;
+}
+.nose{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: rgb(216, 165, 165);
+    position: absolute;
+    top: 182px;
+    left: 215px;
+}
+.nose::before{
+    content: url('');
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+}
+.nose::after{
+    content: url('');
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+}
+.hands::after{
+    content: url('');
+    width: 20px;
+    height: 20px;
+    border-radius: 80%;
+    background-color: black;
+    position: absolute;
+    top: -60px;
+    left: 136px;
+}
+.body{
+    width: 150px;
+    height: 200px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: brown;
+    position: absolute;
+    top: 262px;
+    left: 180px;
+}
+.body::before{
+    content: url('');
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 90px;
+    outline: 5px solid rgb((55, 2, 2)5, 2, 2);
+    width: 80px;
+    height:80px;
+    background-color: brown;
+    position: absolute;
+    top: 140px;
+    left: -50px;
+}
+.body::after{
+    content: url('');
+    border-top-left-radius: 150px;
+    border-top-right-radius: 180px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 90px;
+    outline: 5px solid rgb((55, 2, 2)5, 2, 2);
+    width: 80px;
+    height:80px;
+    background-color: brown;
+    position: absolute;
+    top: 140px;
+    left: 120px;
+}
+    .hands{
+        border-radius: 100%;
+        width: 150px;
+        height: 70px;
+        background-color: brown;
+        position: absolute;
+        left:-70px;
+        
+    }
+    .hands::before{
+        content: url('');
+        border-radius: 100%;
+        width: 150px;
+        height: 70px;
+        background-color: brown;
+        position: absolute;
+        left: 160px;
+        top: 5px;
+    }

@@ -1,0 +1,149 @@
+@keyframes heritente{
+    0%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(0deg);
+    }
+    60%{
+        transform: rotate(40deg);
+    }
+}
+
+.fanhead{
+    border: 12px double darkkhaki;
+    height: 330px;
+    width: 330px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner2{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: lightblue;
+    position: relative;
+    left: -18px;
+}
+.holder{
+    border: 5px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: chocolate;
+    position: absolute;
+    top: 59px;
+    left: 60px;
+    animation-name: heritente;
+    animation-duration: 20ms;
+    animation-iteration-count: infinite;
+}
+.blade1{
+    width: 125px;
+    height: 20px;
+    border-bottom-left-radius: 30px;
+    background-color: black;
+    position: relative;
+    left: -127px;
+    top: 19px;
+}
+.blade2{
+    width: 20px;
+    height: 125px;
+    border-top-left-radius: 30px;
+    background-color: black;
+     position: relative;
+     top: -147px;
+     left: 20px;
+}
+.blade3{
+    width: 20px;
+    height: 125px;
+    border-bottom-left-radius: 30px;
+    background-color: black;
+    position: relative;
+    top: -76px;
+    left: 20px;
+}
+.blade4{
+    width: 125px;
+    height: 20px;
+    border-top-right-radius: 30px;
+    background-color: black;
+     position: relative;
+     top: -250px;
+     left: 70px;
+}
+.stand{
+    width: 40px;
+    height: 450px;
+    background-color: darkkhaki;
+   position: relative;
+   top: 399px;
+   left: 135px;
+}
+.switch{
+    border: 6px double darkkhaki;
+    border-radius: 50%;
+    width: 60px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    top: 30px;
+    left: -15px;
+}
+.controls{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: darkkhaki;
+}
+.button2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: darkkhaki;
+}
+.button3{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: darkkhaki;
+}
+.button4{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: darkkhaki;
+}
+.feet{
+    border-radius: 100%;
+    width: 250px;
+    height: 60px;
+    background-color: brown;
+    position: relative;
+    top: 280px;
+    left: -100px;
+}

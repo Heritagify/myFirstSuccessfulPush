@@ -1,0 +1,134 @@
+/* @keyframes hero{
+0%{
+    margin-left: 0px;
+    background-color: green;
+}    
+25%{
+    margin-left: 1850px;
+    background-color: blue;
+}
+ 50%{
+    margin-top: 750px;
+    background-color: red;
+}
+75%{
+    margin-left: -5px;
+    background-color: purple;
+}
+100%{
+    margin-top: 10px;
+    background-color: black;
+}
+}
+@keyframes sam{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    70%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#box1{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    /* background-color: green; */
+    /* animation-name: hero;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+
+.sams{
+    position: relative;
+    color: #ffffff;
+    top: 90px;
+    left: 30px;
+    /* background-color: black; */
+    /* font-size: 30px;
+    font-weight: bolder;
+    font-style: oblique;
+    animation-name: sam;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+} */
+
+/* .body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../Image/stone.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+nav{
+    background-color:rgb(73, 111, 228);
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style-type: none;
+    line-height: 20px;
+    justify-content: space-evenly;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+h1{
+    padding: 40px;
+    font-size: xx-large;
+    font-weight: 30px;
+} */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.parent{
+    background-color: rgb(24, 59, 57);
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 700px;
+    color: white;
+    padding: 50px 50px 150px 50px;
+}
+.btn{
+    border-radius: 50px;
+    width: 7em;
+    padding: 15px 0 15px 0;
+    font-size: 25px;
+    font-weight: 300;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    animation transform: 0.9s;
+    -webkit-animation: 0.9s;
+}
+/* h1{
+    position: relative;
+    left: 190px;
+    width: 30%;
+    padding: 1em;
+    margin: .2em;
+    font-size: 1.7em;
+    line-height: 30px;
+    background-color: #4333f4;
+} */

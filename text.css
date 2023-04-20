@@ -1,0 +1,85 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css);
+@font-face{
+    font-family: grace;
+    src: url(../Fonts/Happy_Monkey/HappyMonkey-Regular.ttf);
+
+    font-family: lord;
+    src: url(../Fonts/Roboto/Roboto-Bold.ttf);
+
+    font-family: love;
+    src: url(../Fonts/Roboto/Roboto-MediumItalic.ttf);
+    font-family: sweet;
+    src: url(../Fonts/Rubik_Distressed/RubikDistressed-Regular.ttf);
+    font-family: amen;
+    src: url(../Fonts/Silkscreen/Silkscreen-Regular.ttf);
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: grace;
+}
+
+p1{
+    font-size: 30px;
+    font-weight: bold;
+    
+    font-family: lord;
+}
+
+p2{
+    font-size: 38px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: love;
+}
+
+p3{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: sweet;
+}
+
+p4{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: amen;
+}
+
+.car{
+    src: url(../icons/car.svg);
+}
+.crown{
+    src: url(../icons/crown.svg);
+}
+.handshake{
+    src: url(../icons/handshake.svg);
+}
+.bicycle{
+    src: url(../icons/bicycle.svg);
+}
+.trademark{
+    src: url(../icons/trademark.svg);
+}
+.hotel{
+    src: url(../icons/hotel.svg);
+}
+.gun{
+    src: url(../icons/gun.svg);
+}
+.dice{
+    src: url(../icons/dice-d6.svg);
+}
+.hammer{
+    src: url(../icons/hammer.svg);
+}
+.user{
+    src: url(../icons/user.svg);
+}
+
+i{
+    size: 1000px;
+}

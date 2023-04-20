@@ -1,0 +1,389 @@
+body{
+    display: flex;
+    margin-left: 80px;
+}
+
+.side{
+    border-radius: 50px;
+    width: 200px;
+    height: 600px;
+    background-color: rgb(6, 6, 224);
+}
+.side img{
+    position: relative;
+    top: 10px;
+    left: 45px;
+}
+.sideitems{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+    left: 25px;
+    line-height: 20px;
+}
+
+
+.content{
+    outline: 1px solid grey;
+    width: 900px;
+    height: 600px;;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    left: 200px;   
+    top: 10px; 
+    overflow: hidden;
+
+}
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.searchbox{
+    display:flex;
+    align-items: center;
+}
+
+.searchbox input{
+    border: 0.5px solid transparent;
+    outline: 0.5px solid grey;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px;
+    background-color: white;
+}
+.user{
+    border: 1px solid grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.sms{
+    border: 1px solid grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification{
+    border: 1px solid grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #ffffff;
+}
+
+.b{
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+    position: absolute;
+    left: 20px;
+    top: 95px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.b1{
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+    position: absolute;
+    top: 95px;
+    left: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.b2{
+    border-radius: 20px;
+    width: 200px;   
+    height: 100px;
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+    position: absolute;
+    top: 95px;
+    left: 460px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.b3{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    background-image: url(../Image/graph.png);
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: space-around; */
+    position: absolute;
+    top: 220px;
+    left: 490px;
+}
+
+/* .b30{
+    width: 8px;
+    height: 70px;
+    background-color: blue;
+}
+.b31{
+
+    width: 8px;
+    height: 50px;
+    background-color: blue;
+}
+.b32{
+
+    width: 8px;
+    height: 40px;
+    background-color: blue;
+}
+.b33{
+
+    width: 8px;
+    height: 70px;
+    background-color: blue;
+}
+.b34{
+
+    width: 8px;
+    height: 40px;
+    background-color: blue;
+}
+.b35{
+
+    width: 8px;
+    height: 40px;
+    background-color: blue;
+}
+.b36{
+
+    width: 8px;
+    height: 40px;
+    background-color: blue;
+}
+.b37{
+    width: 8px;
+    height: 40px;
+    background-color: blue;
+}
+.b38{
+
+    width: 5px;
+    height: 40px;
+    background-color: blue;
+}
+.b39{
+    width: 5px;
+    height: 40px;
+    background-color: blue;
+}
+.b310{
+    width: 5px;
+    height: 40px;
+    background-color: blue;
+}
+.b311{
+    width: 5px;
+    height: 40px;
+    background-color: blue;
+}
+.b312{
+    width: 5px;
+    height: 40px;
+    background-color: blue;
+} */
+.b4{
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 1px 1px 1px grey;
+    position: absolute;
+    justify-content: space-around;
+    top: 250px;
+    left: 20px;
+}
+.b5{
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+    background-image: url(../Image/graph\ blue.png);
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px grey;
+    position: absolute;
+    top: 350px;
+    left: 465px;
+}
+
+.b6{
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    background-image: url(../Image/line\ 1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: hidden;
+    top: 470px;
+    left: 30px;
+}
+.b7{
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+    background-image: url(../Image/line\ 1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 470px;
+    left: 380px;
+    box-shadow: 0 0 6 blue;
+}
+.pink{
+   position: relative;
+   left: 700px;
+   top: 60px;
+}
+.cart{
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #000000;
+    position: relative;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.down{
+    position: relative;
+    top: 40px;
+
+}
+.box1{
+    border-bottom: transparent;
+    /* border-top: 4px solid black; */
+    width: 40px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    background-image: linear-gradient(blue, white, white);
+}
+.box2{
+    border-bottom: transparent;
+    /* border-top: 4px solid black; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    background-image: linear-gradient(white, white, rgb(237, 91, 116));
+    left: 40px;
+}
+.box3{
+    border-bottom: transparent;
+    /* border-top: 4px solid black; */
+    width: 20px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    background-image: linear-gradient(blue, white, white);
+    left: 100px;
+    top: 2px;
+}
+
+/* .b50{
+    width: 8px;
+    height: 70px;
+    background-color:  pink
+}
+. pink
+    width: 8px;
+    height: 30px;
+    background-color: pink;
+}
+.b52{
+
+    width: 8px;
+    height: 40px;
+    background-color: pink;
+}
+.b53{
+
+    width: 8px;
+    height: 90px;
+    background-color: pink;
+}
+.b54{
+
+    width: 8px;
+    height: 40px;
+    background-color: pink;
+}
+.b55{
+
+    width: 8px;
+    height: 40px;
+    background-color: pink;
+}
+.b56{
+
+    width: 8px;
+    height: 20px;
+    background-color: pink;
+}
+.b57{
+    width: 8px;
+    height: 30px;
+    background-color: pink;
+}
+.b58{
+
+    width: 5px;
+    height: 70px;
+    background-color: pink;
+}
+.b59{
+    width: 5px;
+    height: 40px;
+    background-color: pink;
+}
+.b510{
+    width: 5px;
+    height: 60px;
+    background-color: pink;
+}
+.b511{
+    width: 5px;
+    height: 60px;
+    background-color: pink;
+}
+.b512{
+    width: 5px;
+    height: 50px;
+    background-color: pink;
+} */
