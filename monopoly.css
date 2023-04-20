@@ -1,0 +1,826 @@
+.content{
+    border: 1px solid black;
+    width: 967px;
+    height: 955px;
+    position: relative;
+    left: 200px;
+    /* top: 10px; */
+    background-color: limegreen;
+    opacity: 0.7;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+}
+.parking{
+    border: 1px solid black;
+    border-top: 0px ;
+    border-bottom: 0px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 40px;
+}
+.park{
+    position: relative;
+    top: 70px;
+    left: -20px;
+    transform: rotate(130deg);
+}
+.fa-car{
+    color: red;
+    font-size: 50px;
+}
+
+.orange{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.kent{
+    position: relative;
+    top: 40px;
+    left: -15px;
+    transform: rotate(90deg);
+}
+.orange::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: orange;
+    position: absolute;
+    left: 120px;
+    top: 1px;
+}
+.orange2{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.fleet{
+    position: relative;
+    top: 40px;
+    left: -15px;
+    transform: rotate(90deg);
+}
+.orange2::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: orange;
+    position: absolute;
+    left: 120px;
+    top:1px
+}
+.orange3{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    top: 70px;
+}
+.mb{
+    position: relative;
+    transform: rotate(90deg);
+    font-size: 13px;
+    left: -12px;
+    top: 49px;
+}
+.orange3::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: orange;
+    position: absolute;
+    left: 120px;
+    top: 1px
+}
+.orange5{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 435px;
+}
+.heritage{
+    position: relative;
+    transform: rotate(90deg);
+    font-size: 16px;
+    left: -12px;
+    top: 22px;
+
+}
+.heritage .fa-train{
+    position: relative;
+    color: black;
+}
+.orange4{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 294px;
+}
+.comm{
+    position: relative;
+    transform: rotate(90deg);
+    font-size: 10px;
+    left: 20px;
+    top: 39px;
+}
+.purple{
+    border: 1px solid black;    
+    height: 70px;
+    width: 150px;
+    position: relative;
+    top: 140px;
+}
+.nurth{
+    position: relative;
+    transform: rotate(90deg);
+    font-size: 13px;
+    left: -10px;
+    top: 29px;
+}
+.purple::after{
+    content: url('');
+    width: 30px;
+    height: 73px;
+    position: absolute;
+    background-color: purple;
+    left: 120px;
+    top: -1px;
+}
+.purple2{   
+    border:1px solid black; 
+    height: 70px;
+    width: 150px;
+    position: relative;
+    top: 140px;
+}
+.tra{
+    position: relative;
+    transform: rotate(90deg);
+    font-size: 16px;
+    left: -14px;
+    top: 29px;
+}
+.purple2::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    background-color: purple;
+    left: 120px;
+    top: 1px;
+}
+.purple3{
+    border: 1px solid black; 
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    top: 655px;
+}
+.elect{
+    position: relative;
+    transform: rotate(90deg);
+    font-size: 16px;
+    left: -14px;
+    top: 23px;
+}
+.purple4{
+    border:1px solid black; 
+    height: 70px;
+    width: 150px;
+    position: relative;
+    top: 140px;    
+}
+.angel{
+    position: relative;
+    transform: rotate(90deg);
+    font-size: 16px;
+    left: -14px;
+    top: 93px;
+}
+.purple4::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    background-color: purple;
+    left: 121px;
+    top: 70px;
+}
+.jail{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 210px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-image: url(../Image/visiting.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .jail img{
+    size: ;
+} */
+.upside{
+    border-bottom: 1px solid black;
+    display: flex;
+    height: 140px;
+    width: 658px;
+    position: relative;
+    top: -740px;
+    left: 150px;
+}
+.red{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.white{
+    position: relative;
+    left: -9px;
+    transform: rotate(180deg);
+}
+.red::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 110px;
+}
+.red1{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+    left: 0px;
+}
+.r{
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+    transform: rotate(180deg);
+}
+.r .fa-question{
+    position: relative;
+    top: 20px;
+    left: 8px;
+    color: blue;
+    font-size: 70px;
+}
+.red2{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.pent{
+    position: relative;
+    left: -9px;
+    top: 10px;
+    transform: rotate(180deg);
+}
+.red2::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 110px;
+}
+.red3{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.pall{
+    position: relative;
+    left: -16px;
+    top: 10px;
+    transform: rotate(180deg);
+}
+.red3::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 110px;
+}
+.yellow{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.tap{
+    position: relative;
+    top: 20px;
+    left: -5px;
+    transform: rotate(180deg);
+}
+.fa-train{
+    font-size: 50px;
+    color: red;
+    position: relative;
+
+}
+.yellow1{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.bond{
+    position: relative;
+    left: -9px;
+    top: 5px;
+    transform: rotate(180deg);
+}
+ .yellow1::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    top: 110px;
+}
+.yellow2{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.strand{
+    position: relative;
+    top: 5px;
+    left: -9px;
+    transform: rotate(180deg);
+}
+.yellow2::before{
+    content: url('');
+    width: 70px;
+    height: 29px;
+    background-color: yellow;
+    position: absolute;
+    top: 110px;
+}
+.yello{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.yello .water{
+    position: relative;
+    top: 20px;
+    transform: rotate(180deg);
+
+}
+.yello .fa-faucet{
+    font-size: 60px;
+    color: blue;
+
+}
+.yellow3{
+    border: 1px solid black;
+    width: 80px;
+    height: 140px;
+    position: relative;
+}
+.regent{
+    position: relative;
+    top: 5px;
+    left: -9px;
+    transform: rotate(180deg);
+}
+.yellow3::before{
+    content: url('');
+    width: 80px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    top: 110px;
+}
+.rightside{
+    border-top: 0px transparent;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 956px;
+    width: 150px;
+    position: relative;
+    top: -890px;
+    left: 810px;
+}
+.goto{
+    width: 150px;
+    height: 143px;
+    position: relative;
+    font-weight: bolder;
+    line-height: 40px;
+}
+.fa-gavel{
+    color: red;
+    font-size: 60px;
+    transform: rotate(270px);
+}
+.catch{
+    position: relative;
+    top: -45px;
+    left: -20px;
+    transform: rotate(-120deg);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.green{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.euston{
+    position: relative;
+    transform: rotate(-90deg);
+    font-size: 17px;
+    left: 12px;
+    top: -65px;
+}
+.green::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: green;
+    position: absolute;
+    top: 1px;
+}
+.green2{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.green2::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: green;
+    position: absolute;
+    top: 1px;
+}
+.green3{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.box{
+    position: relative;
+    top: -50px;
+    font-size: 10px;
+    font-weight: bolder;
+    transform: rotate(270deg);
+}
+.fa-box{
+    font-size: 35px;
+    /* color: lightblue; */
+    position: relative;
+    right: -13px;
+}
+.green4{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.green4::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: green;
+    position: absolute;
+    top: 1px;
+}
+
+.gree{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+}
+.gre{
+    position: relative;
+    left: 10px;
+    top: -51px;
+    transform: rotate(-90deg);
+}
+.gre .fa-question{
+    color: orangered;
+    font-size: 70px;
+    position: relative;
+    left: 15px;
+
+}
+.gee{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+    top: 1px;  
+}
+.short{
+    position: relative;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -80px;
+    font-size: 15px;
+}
+.blue{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.park{
+    position: relative;
+    left: 10px;
+    top: -57px;
+    transform: rotate(-90deg);
+}
+.blue::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: blue;
+    position: absolute;
+}
+.blue1{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.rings{
+    position: relative;
+    left: 10px;
+    top: -60px;
+    transform: rotate(-90deg);
+}
+.blue2{
+    border: 1px solid black;
+    width: 150px;
+    height: 70px;
+    position: relative;
+}
+.may{
+    position: relative;
+    left: 10px;
+    top: -67px;
+    transform: rotate(-90deg);
+}
+.blue2::after{
+    content: url('');
+    width: 30px;
+    height: 70px;
+    background-color: blue;
+    position: absolute;
+    top: 1px;
+}
+.go{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.start{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-weight: bolder;
+    transform: rotate(320deg);
+}
+.arrow{
+    position: relative;
+    left: 40px;
+    font-size: 30px;
+    color: red;
+}
+.downside{
+    border-top: 1px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    height: 145px;
+    width: 658px;
+    position: relative;
+    top: -1050px;
+    left: 150px;
+}
+.grey{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.chapel{
+    position: relative;
+    left: 10px;
+    top: 27px;
+    /* transform: rotate(-90deg); */
+}
+.grey::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    top: -4px;
+}
+.grey1{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+}
+.gr .fa-question{
+    color: pink;
+}
+.grey2{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative; 
+}
+.bow{
+    position: relative;
+    left: 10px;
+    top: 27px;
+}
+.grey2::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    top: -4px;
+}
+.grey3{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.lei{
+    position: relative;
+    left: 10px;
+    top: 27px;
+}
+.grey3::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    top: -4px;
+}
+.dark{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.maryb{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    left: -1px;
+}
+.yell{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.fa-diamond{
+    font-size: 30px;
+    position: relative;
+    left: 15px;
+}
+.dark2{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.cov{
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.dark2::before{
+    content: url('');
+    width: 70px;
+    height: 29px;
+    background-color: darkslateblue;
+    position: absolute;
+    top: -4px;
+}
+.darky{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.dark3{
+    border: 1px solid black;
+    width: 70px;
+    height: 140px;
+    position: relative;
+}
+.vine{
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+.dark3::before{
+    content: url('');
+    width: 70px;
+    height: 30px;
+    background-color: darkslateblue;
+    position: absolute;
+    top: -4px;
+}
+.author{
+    position: relative;
+    top: -1700px;
+    left: 250px;
+}
+.community{
+    border: 6px dotted black;
+    width: 230px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -60px;
+    left: -70px;
+    transform: rotate(130deg);
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.dev{
+    font-size: 30px;
+    color: brown;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 25px;
+}
+.fa-dice{
+    font-size: 70px;
+    color: white;
+    position: relative;
+    left: 100px;
+}
+.chest{
+    border: 6px dotted black;
+    width: 230px;
+    height: 120px;
+    position: relative;
+    top: 1px;
+    left: 280px;
+    transform: rotate(-50deg);
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gr{
+    position: relative;
+    top: 20px;
+    font-weight: bolder;
+}
+.gr .fa-question{
+    position: relative;
+    top: 20px;
+    left: 8px;
+    color: red;
+    font-size: 70px;
+}
